@@ -2,12 +2,13 @@ import React from 'react';
 import '../App.css'
 import logo from './assets/loader.png';
 import Navbar from './Nav/Navbar';
+import Footer from './Nav/Footer';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
+      <body className="App-header">
         <h1>
           Coming Soon
         </h1>
@@ -15,7 +16,8 @@ function App() {
         <p>
           LAPA eCommerce site
       </p>
-      </header>
+      </body>
+      <Footer />
     </div>
   );
 }
