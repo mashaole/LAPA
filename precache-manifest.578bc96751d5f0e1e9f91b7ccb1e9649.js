@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a835fdb126e07385563a078f1113ee92",
+    "revision": "fa71b929fbef1db2ccd3ad54019131a0",
     "url": "/LAPA/index.html"
   },
   {
-    "revision": "7afb4ff7242abb576a95",
-    "url": "/LAPA/static/css/main.b278f84d.chunk.css"
+    "revision": "f57e21fbfa45f8d122ea",
+    "url": "/LAPA/static/css/main.29c3024c.chunk.css"
   },
   {
     "revision": "43aa5aa33bb47c4b9d70",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LAPA/static/js/2.95d80d57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7afb4ff7242abb576a95",
-    "url": "/LAPA/static/js/main.bc8db446.chunk.js"
+    "revision": "f57e21fbfa45f8d122ea",
+    "url": "/LAPA/static/js/main.5bbc19a2.chunk.js"
   },
   {
     "revision": "86a1d819414f177c8ef0",
     "url": "/LAPA/static/js/runtime-main.d512f004.js"
   },
   {
-    "revision": "79941a31736acc543f030e62c180e24d",
-    "url": "/LAPA/static/media/loader.79941a31.png"
+    "revision": "f15b839a3640c99c6a370031b52abd4e",
+    "url": "/LAPA/static/media/load.f15b839a.png"
   },
   {
     "revision": "dc752b73998be3cbc9dda2ba1095acf0",
