@@ -16,7 +16,7 @@ const Nav = styled.nav`
     overflow: hidden;
   }
   .resize{
-    height: 55px;
+    height: 60px;
   }
 `
 

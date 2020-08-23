@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Ul = styled.ul`
   list-style: none;
+  font-size: 30px;
   display: flex;
   flex-flow: row nowrap;
   li {
@@ -19,6 +20,7 @@ const Ul = styled.ul`
     flex-flow: column nowrap;
     background-color: #ffff;
     position: fixed;
+    font-size: 40px;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
@@ -32,34 +34,34 @@ const Ul = styled.ul`
   }
 `;
 const li = [
-    {
-        link: "/",
-        text: "Home"
-    },
-    {
-        link: "/products",
-        text: "Products"
-    },
-    {
-        link: "/about",
-        text: "About Us"
-    },
-    {
-        link: "/contact",
-        text: "Contact Us"
-    }
+  {
+    link: "/",
+    text: "Home"
+  },
+  {
+    link: "/products",
+    text: "Products"
+  },
+  {
+    link: "/about",
+    text: "About Us"
+  },
+  {
+    link: "/contact",
+    text: "Contact Us"
+  }
 ];
 
 const RightNav = ({ open }) => {
-    return (
-        <Ul open={open}>
-            {
-                li.map((objLink, i) => {
-                    return (<li><a href={objLink.link}>{objLink.text}</a></li>)
-                })
-            }
-        </Ul>
-    )
+  return (
+    <Ul open={open}>
+      {
+        li.map((objLink, i) => {
+          return (<li><a href={objLink.link}>{objLink.text}</a></li>)
+        })
+      }
+    </Ul>
+  )
 }
 
 export default RightNav

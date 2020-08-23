@@ -43,13 +43,13 @@ class ContactForm extends React.Component {
                         <input name="email" type="email" value={this.state.email} onChange={this.handleChange} className="form-control" id="emailInput" placeholder="Email" />
                     </div>
                     <div className="form-group">
-                        <input name="phone" type="email" value={this.state.phone} onChange={this.handleChange} className="form-control" id="phoneInput" placeholder="Phone Number" />
+                        <input name="phone" value={this.state.phone} onChange={this.handleChange} className="form-control" id="phoneInput" placeholder="Phone Number" />
                     </div>
                     <div className="form-group">
-                        <input name="address" type="email" value={this.state.address} onChange={this.handleChange} className="form-control" id="addressInput" placeholder="Address" />
+                        <input name="address" value={this.state.address} onChange={this.handleChange} className="form-control" id="addressInput" placeholder="Address" />
                     </div>
                     <div className="form-group">
-                        <textarea name="message" type="textarea" rows="4" cols="22" value={this.state.message} onChange={this.handleChange} className="form-control" id="messageImput" placeholder="Message" />
+                        <textarea name="message" rows="4" cols="22" value={this.state.message} onChange={this.handleChange} className="form-control" id="messageImput" placeholder="Message" />
                     </div>
                     <input type="submit" value="Submit" className="btn btn-primary" />
                 </form>
