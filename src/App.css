@@ -36,3 +36,103 @@
     transform: rotate(360deg);
   }
 }
+
+/*Input Form */
+.contact{
+  width: 40%;
+  height: auto;
+  left: 659px;
+  top: 53px;
+  background: #E5E5E5;
+  box-shadow: -6px -6px 5px #FFFFFF, 6px 6px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+input{
+  font-family: 'IM Fell English', serif;
+  margin-top: 20px;
+  font-size: 30px;
+  outline: none;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #E5E5E5;
+  background: #E5E5E5;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(201, 200, 200, 0.5), inset -4px 4px 8px rgba(201, 200, 200, 0.2), inset 4px -4px 8px rgba(201, 200, 200, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.9), inset 4px 4px 10px rgba(201, 200, 200, 0.9);
+}
+
+textarea{
+  font-family: 'IM Fell English', serif;
+  margin-top: 20px;
+  font-size: 30px;
+  width: 70%;
+  outline: none;
+  height: 100%;
+  border-color: #E5E5E5;
+  border-radius: 10px;
+  background: #E5E5E5;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(201, 200, 200, 0.5), inset -4px 4px 8px rgba(201, 200, 200, 0.2), inset 4px -4px 8px rgba(201, 200, 200, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.9), inset 4px 4px 10px rgba(201, 200, 200, 0.9);
+}
+
+.btn-primary{
+font-family: 'IM Fell English', serif;
+margin-top: 40px;
+width: 20%;
+height: 86px;
+outline: none;
+border-color: #E5E5E5;
+background: #F47805;
+box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+}
+
+/*Input Form Responsive */
+@media (max-width: 768px) {
+  .contact{
+    width: 80%;
+    height: auto;
+    left: 659px;
+    top: 53px;
+    background: #E5E5E5;
+    box-shadow: -6px -6px 5px #FFFFFF, 6px 6px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+  }
+
+  input{
+    font-family: 'IM Fell English', serif;
+    margin-top: 20px;
+    font-size: 30px;
+    outline: none;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    border-color: #E5E5E5;
+    background: #E5E5E5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(201, 200, 200, 0.5), inset -4px 4px 8px rgba(201, 200, 200, 0.2), inset 4px -4px 8px rgba(201, 200, 200, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.9), inset 4px 4px 10px rgba(201, 200, 200, 0.9);
+  }
+  
+  textarea{
+    font-family: 'IM Fell English', serif;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 80%;
+    outline: none;
+    height: 100%;
+    border-color: #E5E5E5;
+    border-radius: 10px;
+    background: #E5E5E5;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(201, 200, 200, 0.5), inset -4px 4px 8px rgba(201, 200, 200, 0.2), inset 4px -4px 8px rgba(201, 200, 200, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.9), inset 4px 4px 10px rgba(201, 200, 200, 0.9);
+  }
+  
+  .btn-primary{
+  font-family: 'IM Fell English', serif;
+  margin-top: 40px;
+  width: 50%;
+  height: 86px;
+  outline: none;
+  border-color: #E5E5E5;
+  background: #F47805;
+  box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  }
+}
