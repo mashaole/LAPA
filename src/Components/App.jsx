@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css'
-import logo from './assets/loader.png';
+import loading from './assets/load.png';
 import Navbar from './Nav/Navbar';
 import Footer from './Nav/Footer';
 import ContactForm from './Form/ContactForm';
@@ -14,7 +14,7 @@ function App() {
           <h1>
             Coming Soon
         </h1>
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={loading} className="App-logo" alt="loading" />
           <p>
             LAPA eCommerce site
       </p>
