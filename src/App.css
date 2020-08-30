@@ -1,3 +1,4 @@
+/* Foundation css */
 .App {
   text-align: center;
 }
@@ -136,4 +137,55 @@ border-radius: 30px;
   box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px rgba(0, 0, 0, 0.5);
   border-radius: 30px;
   }
+}
+
+/* Masonry Layout */
+.masonry-container {
+  width: 100%;
+  margin: auto;
+  height : 100%;
+  margin-top: 10px;
+}
+.masonry-container p {
+  text-align: center;
+  padding: 4px;
+  font-family: monospace;
+  background: #222;
+  color: #efefef;
+}
+.masonry {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  width: 100%;
+  margin: auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-grow: 1;
+}
+.tile {
+  margin: 4px;
+}
+.tile img {
+  box-shadow: 0 1px 1px 2px rgba(0, 0, 0, .15);
+  border-radius: 10px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.masonryTiltle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+}
+
+.masonryTiltle h1{
+  font-size: 90px;
 }

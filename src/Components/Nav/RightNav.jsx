@@ -13,6 +13,15 @@ const Ul = styled.ul`
   a{
     text-decoration: none;
     color:#000000;
+    text-shadow: -6px -6px 5px #FFFFFF, 6px 6px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  a:hover{
+    color:#f80;  
+  }
+  
+  a:active{
+    color:#f80;
   }
 
   @media (max-width: 768px) {
@@ -30,6 +39,14 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     li {
       color:#000000;
+    }
+
+    li:hover{
+      color:#f80
+    }
+    
+    li:active{
+      color:#f80
     }
   }
 `;
