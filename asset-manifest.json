@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LAPA/static/css/main.fa59348f.chunk.css",
-    "main.js": "/LAPA/static/js/main.e7f63016.chunk.js",
-    "main.js.map": "/LAPA/static/js/main.e7f63016.chunk.js.map",
+    "main.js": "/LAPA/static/js/main.adf1d2c0.chunk.js",
+    "main.js.map": "/LAPA/static/js/main.adf1d2c0.chunk.js.map",
     "runtime-main.js": "/LAPA/static/js/runtime-main.d512f004.js",
     "runtime-main.js.map": "/LAPA/static/js/runtime-main.d512f004.js.map",
     "static/js/2.4638ea6d.chunk.js": "/LAPA/static/js/2.4638ea6d.chunk.js",
     "static/js/2.4638ea6d.chunk.js.map": "/LAPA/static/js/2.4638ea6d.chunk.js.map",
     "index.html": "/LAPA/index.html",
-    "precache-manifest.fc95ab9f7bba13a5f8e71db5141c0a91.js": "/LAPA/precache-manifest.fc95ab9f7bba13a5f8e71db5141c0a91.js",
+    "precache-manifest.dd97bc42465c8935c5c4764d19737ec5.js": "/LAPA/precache-manifest.dd97bc42465c8935c5c4764d19737ec5.js",
     "service-worker.js": "/LAPA/service-worker.js",
     "static/css/main.fa59348f.chunk.css.map": "/LAPA/static/css/main.fa59348f.chunk.css.map",
     "static/js/2.4638ea6d.chunk.js.LICENSE.txt": "/LAPA/static/js/2.4638ea6d.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.d512f004.js",
     "static/js/2.4638ea6d.chunk.js",
     "static/css/main.fa59348f.chunk.css",
-    "static/js/main.e7f63016.chunk.js"
+    "static/js/main.adf1d2c0.chunk.js"
   ]
 }
