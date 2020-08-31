@@ -6,7 +6,7 @@ import loading from './assets/load.png';
 import ContactForm from './Form/ContactForm';
 import MasonryLayout from './Layout/MasoryLayout';
 import About from './Layout/About'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import { func } from 'prop-types';
 
 function Nav() {
@@ -42,20 +42,22 @@ function AboutUs() {
 }
 
 function inBoundUser() {
-  return (<div className="App">
-    {Nav()}
-    <body className="App-header">
-      <Router>
+  return (<Router basename={process.env.PUBLIC_URL}>
+    <div className="App">
+      {Nav()}
+      <body className="App-header">
+
         <Route exact path="/">{Landing()} </Route>
         <Route exact path="/products">{ComingSoon()}</Route>
         <Route exact path="/about">{AboutUs()}</Route>
         <Route exact path="/contact">{Contact()}</Route>
-      </Router>
-    </body>
-    <div>
+
+      </body>
+      <div>
+      </div>
+      {Foot()}
     </div>
-    {Foot()}
-  </div>)
+  </Router>)
 }
 
 function App() {

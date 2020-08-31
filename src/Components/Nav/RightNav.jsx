@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Ul = styled.ul`
   list-style: none;
@@ -74,7 +75,7 @@ const RightNav = ({ open }) => {
     <Ul open={open}>
       {
         li.map((objLink, i) => {
-          return (<li><a href={objLink.link}>{objLink.text}</a></li>)
+          return (<li><Link to={objLink.link}>{objLink.text}</Link></li>)
         })
       }
     </Ul>
