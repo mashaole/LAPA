@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0979964ae64a4a46281139a58a5ff138",
+    "revision": "b908e421e237e548cfdce2c43715bb28",
     "url": "/LAPA/index.html"
   },
   {
-    "revision": "58c8c9c54892ba954d68",
+    "revision": "2ffd0297de9ff13ce165",
     "url": "/LAPA/static/css/main.fa59348f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LAPA/static/js/2.717706ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58c8c9c54892ba954d68",
-    "url": "/LAPA/static/js/main.fb55ae74.chunk.js"
+    "revision": "2ffd0297de9ff13ce165",
+    "url": "/LAPA/static/js/main.e3615e80.chunk.js"
   },
   {
     "revision": "86a1d819414f177c8ef0",
